@@ -1,8 +1,11 @@
+ 
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+ 
 nav {
     display: flex;
+    background-color: antiquewhite;
+    align-items: center;
      
-     
-    width: 100%;
     height: 50px;
     
     display: flex;
@@ -14,6 +17,8 @@ nav {
 body {
     padding: 350px;
     padding-top: 0;
+    padding-bottom: 0;
+     
 }
 
 img {
@@ -24,7 +29,19 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 footer a{
     font-size: 50px;
 }
+div{
+    height: 800px;
+}
+h1, h2, p, a{
+    font-family: 'Rajdhani', sans-serif;
+}
+p{
+    font-size: 20px;
+}
+ 
+ 
