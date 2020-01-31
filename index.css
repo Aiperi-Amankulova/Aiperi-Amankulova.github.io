@@ -1,5 +1,5 @@
  
-@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow|Petit+Formal+Script&display=swap');
  
 nav {
     display: flex;
@@ -24,6 +24,7 @@ body {
 img {
     width: 600px;
     border-radius: 10px;
+    text-align: center;
 }
 footer{
     display: flex;
@@ -35,15 +36,16 @@ footer a{
     font-size: 50px;
 }
 
-h1, h2, h3, h4, h5 p, a{
-    font-family: 'Rajdhani', sans-serif;
+h1, h2,div {
+    font-family: 'Petit Formal Script', cursive; 
 }
-p{
-    font-size: 20px;
-}
+ 
 h1, h2{
     font-weight: bold;
     background-color: antiquewhite;
 }
+ p, a{
+    font-family: 'Barlow', sans-serif;
+ }
  
  
