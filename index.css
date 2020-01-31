@@ -34,14 +34,16 @@ footer{
 footer a{
     font-size: 50px;
 }
-div{
-    height: 800px;
-}
-h1, h2, p, a{
+
+h1, h2, h3, h4, h5 p, a{
     font-family: 'Rajdhani', sans-serif;
 }
 p{
     font-size: 20px;
+}
+h1, h2{
+    font-weight: bold;
+    background-color: antiquewhite;
 }
  
  
