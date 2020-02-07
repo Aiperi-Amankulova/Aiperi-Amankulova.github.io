@@ -39,14 +39,23 @@ h1, h2,div {
 h1, h2{
     font-weight: bold;
     background-color: antiquewhite;
+    padding: 8px
 }
  p, a{
     font-family: 'Barlow', sans-serif;
+    padding: 5px;
  }
- 
+ p{
+     line-height: 1.8;
+ }
  nav a{
      color: black;
-
+     text-decoration: none
  }
- 
+ main{
+     display: flex;
+ }
+ #example{
+      display: block;
+ }
  
