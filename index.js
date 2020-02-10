@@ -1,11 +1,7 @@
 let links = document.querySelectorAll("nav a");
 
-let  navigation = ["about me", "skills", "contact"];
-
-for (let i = 0; i < sections.length; i++) {
-  const element = sections[i];
-  element.style.backgroundColor = colors[i];
-}
+let  navigation = ["aboutMe", "skills", "contact"];
+ 
 
 for (let i = 0; i < links.length; i++) {
   const element = links[i];
@@ -30,3 +26,4 @@ for (let i = 0; i < links.length; i++) {
       });
     }
   });
+}
