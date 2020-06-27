@@ -77,17 +77,31 @@ a {
 @media (max-width: 600px) {
   body {
     padding: 100px;
-    min-width: 338px;
+    width: 338px;
     padding-left: 0;
     padding-top: 0;
     padding-right: 0;
     padding-bottom: 0;
   }
   nav {
-    width: 338px;
+    display: block;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 5px;
+    height: 30px;
+    width: 360px;
+    padding: 10px;
+    line-height: 1.2;
+    z-index: 10;
+
+    flex-flow: row wrap;
   }
   .img {
     width: 300px;
+  }
+  h1,
+  h2 {
+    width: 360px;
   }
 }
 
