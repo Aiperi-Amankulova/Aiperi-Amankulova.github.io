@@ -1,25 +1,21 @@
-@import url("https://fonts.googleapis.com/css?family=Barlow|Petit+Formal+Script&display=swap");
-body {
-  padding: 367px;
-  padding-top: 0;
-  padding-bottom: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Quicksand:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Quicksand:wght@500&display=swap');
 nav {
   display: block;
-  background-color: antiquewhite;
+  background-color: #8FA4B5;
   position: fixed;
   top: 5px;
-  height: 30px;
-  width: 730px;
+  width: 1400px;
   padding: 10px;
   line-height: 1.2;
-  z-index: 10;
-
+  z-index: 10; 
   flex-flow: row wrap;
+  font-family: 'Quicksand', sans-serif;
 }
+ 
 nav div {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 nav a {
   color: black;
@@ -27,84 +23,100 @@ nav a {
   display: flex;
   flex-direction: column;
   position: relative;
-}
-.links {
-  justify-content: space-evenly;
-}
-.header {
-  justify-content: left;
-  padding-top: 60px;
-  text-align: center;
-  line-height: 50px;
-  font-family: "Barlow", sans-serif;
-
-  font-size: 20px;
-}
-main {
+} 
+#text_for_pr{
+  margin-top: 10px;
   display: flex;
-  flex-wrap: wrap;
-}
-footer {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-evenly;
-}
-footer a {
-  font-size: 30px;
-  color: rgb(12, 12, 116);
-}
-.img {
-  width: 400px;
-  border-radius: 10px;
+ 
+  justify-content: center;
+  align-items: center;
+  
+  font-family: 'Cinzel', serif;
+  font-size: 36px;
+} 
+#text_flex{
+  flex-direction: column; 
   text-align: center;
+  margin-top: 270px;
+  margin-bottom: 150px;
+  line-height: 1.7;
 }
-h1,
-h2 {
-  font-family: "Petit Formal Script", cursive;
-  font-weight: bold;
-  background-color: antiquewhite;
-  padding: 8px;
-  width: 733px;
+#img_me{
+  width: 350px ;
+  height: 40px;
+  margin-right: 200px;
+  margin-top: 150px; 
+} 
+#about_me{
+  font-size: 36px;
+  font-family: Cinzel;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+#div_info{
+  display: flex;
+  margin: 55px;
+  margin-top: 0%; 
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+}
+#div_info div{
+  margin: 25px;;
+}
+#skills{
+  font-size: 36px;
+  font-family: Cinzel;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+#skills_list{ 
+  margin-top: 20px;
+  margin-left: 200px;
+  line-height: 1.5;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px; 
+}
+  #div_for_job{
+  display: flex; 
+} 
+.img_work{
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  font-family: 'Quicksand', sans-serif;
+  margin-left: 250px;
+
+}
+.text{
+  font-size: 36px;
+  font-family: Cinzel; 
+  margin-left: 80px;
+} 
+#main_texts{
+  display: flex;
+  font-size: 36px;
+  font-family: Cinzel; 
+  margin-left: 80px;
+}
+#skill{
+  margin-right: 570px;
 }
 
-p,
 a {
-  font-family: "Barlow", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   padding: 5px;
+  margin-left: 20px;
   line-height: 1.8;
 }
-
-@media (max-width: 600px) {
-  body {
-    padding: 100px;
-    width: 338px;
-    padding-left: 0;
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-  }
-  nav {
-    display: block;
-    background-color: antiquewhite;
-    position: fixed;
-    top: 5px;
-    height: 30px;
-    width: 360px;
-    padding: 10px;
-    line-height: 1.2;
-    z-index: 10;
-
-    flex-flow: row wrap;
-  }
-  .img {
-    width: 300px;
-  }
-  h1,
-  h2 {
-    width: 360px;
-  }
-}
-
+ #div_info a{
+   font-size: 40px;
+   padding: 50px; 
+   font-family: 'Quicksand', sans-serif;
+ }
+ #div_info{
+   display: flex;
+   justify-content: center;
+ } 
 #example {
   display: block;
 }
