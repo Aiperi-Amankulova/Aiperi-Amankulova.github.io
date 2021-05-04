@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Quicksand:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Quicksand:wght@500&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
 nav {
   display: block;
   background-color: #8FA4B5;
   position: fixed;
-  top: 5px;
+  top: 0px;
   width: 1400px;
   padding: 10px;
   line-height: 1.2;
