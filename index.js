@@ -1,6 +1,6 @@
 let links = document.querySelectorAll("nav a");
 
-let  navigation = ["aboutMe", "skills", "contact"];
+let  navigation = ["home", "aboutMe", "skills", "contact"];
  
 
 for (let i = 0; i < links.length; i++) {
